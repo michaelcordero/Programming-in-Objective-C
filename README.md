@@ -1,5 +1,4 @@
-# H1 Instructions: 
-# H2 Most of the programs contained with the subdirectories of this proect can be easily compiled and run from the command line by:
+### Most of the programs contained within the subdirectories of this project can be easily compiled and run from the command line by:
 1. navigating to the project you wish to run e.g. cd ~/Program3/
 2. to compile: clang -fobjc-arc "files" -o "program
    - "files" = the list of files to be included in the compilation, seperated by a single space or "<program>"
