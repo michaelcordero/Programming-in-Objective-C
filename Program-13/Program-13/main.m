@@ -74,6 +74,7 @@ int* eratosthenes(int n ) {
     memset(prime, true, sizeof(prime)); // sets all values of prime[] to true
     
     //determine prime numbers
+    // source: [GeeksForGeeks](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
     for(int p=2; p*p<=n; p++){
         if (prime[p] == true) {
             //update all multiples of p
